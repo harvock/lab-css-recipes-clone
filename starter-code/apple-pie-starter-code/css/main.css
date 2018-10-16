@@ -1,0 +1,36 @@
+body {
+  margin: 50px 200px 50px 200px;  
+}
+
+.h1-back-image {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 350px;
+}
+
+.header-story {
+  width: auto;
+  margin: 75px;
+  text-align: center;
+}
+
+.ingredient-list {
+  list-style-type: "-";
+}
+
+.header-cook-info {
+  text-align: center;
+}
+
+.h2-format {
+}
+
+zdirections-list {
+  list-style-type: upper-roman;
+}
+
+ul > li::content{
+  content: "-";
+} 
