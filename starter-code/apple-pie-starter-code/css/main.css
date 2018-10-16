@@ -1,11 +1,13 @@
 body {
-  margin: 50px 200px 50px 200px;  
+  margin: 50px 200px 50px 200px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .h1-back-image {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   color: white;
+  font-size: 70px;
   text-align: center;
   padding: 350px;
 }
@@ -17,7 +19,7 @@ body {
 }
 
 .ingredient-list {
-  list-style-type: "-";
+  list-style-type: none;
 }
 
 .header-cook-info {
@@ -27,10 +29,6 @@ body {
 .h2-format {
 }
 
-zdirections-list {
-  list-style-type: upper-roman;
+.directions-list {
+  list-style-type: none;
 }
-
-ul > li::content{
-  content: "-";
-} 
